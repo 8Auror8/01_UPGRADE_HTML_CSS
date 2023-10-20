@@ -1,0 +1,95 @@
+/*cabecera + logo + imagen principal*/
+#cabecera{
+    background-color: #2a292c;
+    width: 100%;
+    height: 100px;
+    position:fixed;
+    z-index: 20;
+}
+
+
+#logo-pizza{
+    background-color: #2a292c;
+    width: 8%;
+    height: 20%;
+    border-radius: 0% 0% 20% 20%; 
+    position:fixed;
+    z-index: 21;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+#principal{
+    position:relative;
+    top:100px;
+    width: 100%;
+    height: 100%;
+    z-index: 19;
+}
+
+/*navegador*/
+nav{
+    background-color: #ffffff;
+    width: 100%;
+    height: 65px;
+    margin-left: 0%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: #E2E2E8;
+    border-width: 2px;
+    position:relative;
+    top:100px;
+    z-index: 19;
+}
+
+a{
+    display: inline-block;
+    font-family: 'roboto medium';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-left: 13%;
+    margin-top: 20px;
+    color: #6E7191;
+}
+
+/*body+main*/
+body{
+    position:relative;
+    margin:0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+#special{
+    width: 1000px;
+    height: 500px;
+}
+main{
+    background-color: #fffaf0;
+    margin: 0px 150px 150px 150px;
+    background-image: url("./pared.avif");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}   
+
+
+
+
+/*footer*/
+footer{
+    background-color: #2a292c;
+    width: 100%;
+    height: 200px;
+    position:relative;
+    top:200px;
+}

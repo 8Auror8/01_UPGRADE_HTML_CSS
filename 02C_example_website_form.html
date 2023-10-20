@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ipsum Pizzeria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style form.css">
+    <script src="https://kit.fontawesome.com/fde00575d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="fix-container">
+            <div id="logo-pizza">
+                <img id="logo"src="./logo_pizza.png" alt="logo-pizza">
+            </div>
+            <div id="buttons">
+                <div class="butt-cab tu-pizza">
+                    <img class="img-cab tu-pizza"src="./images/ico-crea-tu-pizza.svg" alt="crea tu pizza">
+                </div>
+                <div class="butt-cab nuestra-carta">
+                    <img class="img-cab nuestra-carta"src="./images/ico-alergenos.svg" alt="nuestra carta">
+                </div>
+                <div class="butt-cab promociones">
+                    <img class="img-cab promociones"src="./images/ico-promociones.svg" alt="promociones">
+                </div>
+                <div class="butt-cab pedido">
+                    <img class="img-cab pedido"src="./images/ico-pedidos.svg" alt="pedidos">
+                </div>
+            </div>
+            <div id="cabecera"></div>
+        </div>
+        <div id="principal">
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <nav class="navigation">
+            <a href="#seccion promociones">Promociones</a>
+            <a href="#seccion pizzas">Pizzas</a>
+            <a href="#seccion acompanamiento">Pan de ajo</a>
+            <a href="#seccion bebidas">Bebidas</a>
+            <a href="./03_example_website_page_form.html">Contacto</a>
+        </nav>
+        <form>
+            <fieldset>
+                <h3>Formulario de contacto</h3>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="Name" id="name" placeholder="Nombre" required>
+                    <label for="number">Edad</label>
+                    <input type="number" name="Age" id="number"required>
+                </div>
+                <br></br>
+                <div>
+                    <label for="mail" required>Correo electrónico</label>
+                    <input type="mail" name="email" id="mail" placeholder="Necesitamos tu mail para contactar contigo"required>
+                </div>
+                <br></br>
+                <div>
+                    <label for="comments" required>Tus comentarios aquí</label>
+                    <textarea id="comments" placeholder="Queremos saber qué tienes que decirnos" cols="30" rows="1"></textarea>
+                </div>
+                <div>
+                    <label for="check">Mayor de edad</label>
+                    <input type="checkbox" name="Like" id="check" placeholder="¿Mayor de edad?" required>
+                </div>
+                <div>
+                    <label for="tienda">Selecciona una tienda</label>
+                    <select name="select_tienda" id="tienda" required>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Sevilla">Sevilla</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" onclick="alert('Ha pulsado correctamente el button! Enhorabuena!')">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <h5></h5>
+        <p>Ipsum pizza Copyright © 2023</p>
+    </footer>
+</body>
+</html>
